@@ -1,0 +1,30 @@
+{
+  "connection": "default",
+  "collectionName": "",
+  "info": {
+    "name": "member",
+    "description": ""
+  },
+  "options": {
+    "timestamps": true
+  },
+  "attributes": {
+    "name": {
+      "type": "string"
+    },
+    "description": {
+      "type": "string"
+    },
+    "cv": {
+      "type": "json"
+    },
+    "profile_picture": {
+      "model": "file",
+      "via": "related",
+      "plugin": "upload"
+    },
+    "title": {
+      "type": "string"
+    }
+  }
+}

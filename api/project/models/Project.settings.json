@@ -1,0 +1,65 @@
+{
+  "connection": "default",
+  "collectionName": "project",
+  "info": {
+    "name": "project",
+    "description": ""
+  },
+  "options": {
+    "timestamps": true
+  },
+  "attributes": {
+    "name": {
+      "type": "string"
+    },
+    "type": {
+      "type": "string"
+    },
+    "client": {
+      "type": "string"
+    },
+    "contractor": {
+      "type": "string"
+    },
+    "construction_cost": {
+      "type": "string"
+    },
+    "start_date": {
+      "type": "string"
+    },
+    "completion_date": {
+      "type": "string"
+    },
+    "length_of_the_road": {
+      "type": "string"
+    },
+    "width_of_the_road": {
+      "type": "string"
+    },
+    "length_of_the_bridge": {
+      "type": "string"
+    },
+    "width_of_the_bridge": {
+      "type": "string"
+    },
+    "design_period": {
+      "type": "string"
+    },
+    "number_of_bridges_span_greaterthan_10_m": {
+      "type": "string"
+    },
+    "head_photos": {
+      "collection": "file",
+      "via": "related",
+      "plugin": "upload"
+    },
+    "body_photos": {
+      "collection": "file",
+      "via": "related",
+      "plugin": "upload"
+    },
+    "description": {
+      "type": "json"
+    }
+  }
+}
