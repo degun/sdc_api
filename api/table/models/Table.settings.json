@@ -1,0 +1,29 @@
+{
+  "connection": "default",
+  "collectionName": "",
+  "info": {
+    "name": "table",
+    "description": ""
+  },
+  "options": {
+    "timestamps": true
+  },
+  "attributes": {
+    "head": {
+      "type": "json"
+    },
+    "body": {
+      "type": "json"
+    },
+    "name": {
+      "type": "string"
+    },
+    "type": {
+      "enum": [
+        "supervision",
+        "design"
+      ],
+      "type": "enumeration"
+    }
+  }
+}
