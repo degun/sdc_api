@@ -9,12 +9,6 @@
     "timestamps": true
   },
   "attributes": {
-    "head": {
-      "type": "json"
-    },
-    "body": {
-      "type": "json"
-    },
     "name": {
       "type": "string"
     },
@@ -24,6 +18,12 @@
         "design"
       ],
       "type": "enumeration"
+    },
+    "head": {
+      "type": "json"
+    },
+    "body": {
+      "type": "json"
     }
   }
 }
